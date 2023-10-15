@@ -1,0 +1,130 @@
+/* Google fonts import link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2E294E;
+}
+
+.wrapper {
+    user-select: none;
+}
+
+.wrapper .time {
+    height: 100px;
+    background: #AB87FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.09);
+    padding: 0 10px;
+}
+
+.wrapper .time span {
+    width: 100px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    color: #EADEDA;
+}
+
+.time span.colon {
+    width: 10px;
+}
+
+.time span.ms-colon,
+.time span.millisecond {
+    color: #2E294E;
+}
+
+.wrapper .buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttons button {
+    padding: 6px 16px;
+    outline: none;
+    border: none;
+    margin: 0 5px;
+    color: #2E294E;
+    background: #EADEDA;
+    font-size: 19px;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.09);
+}
+
+.buttons button.active,
+.buttons button.stopActive {
+    pointer-events: none;
+    opacity: 0.7;
+}
+
+/*---------------- Footer ----------------*/
+
+footer {
+    background-color: #AB87FF;
+    color: #2E294E;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    padding-top: 20px;
+    padding-bottom: 4px;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+
+.watermark {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.portfolio a {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 4px;
+    text-decoration: none;
+    color: #2E294E;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.media-icons {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.media-icons li {
+    margin: 0px 10px;
+}
+
+.media-icons li a img {
+    width: 30px;
+    height: 30px;
+}
